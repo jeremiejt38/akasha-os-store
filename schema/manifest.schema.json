@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/jeremiejt38/akasha-os-store/main/schema/manifest.schema.json",
+  "type": "object",
+  "title": "Akasha OS App Manifest",
+  "required": [
+    "id",
+    "name",
+    "version",
+    "category",
+    "description",
+    "icon",
+    "install",
+    "legal_notice",
+    "min_os_version",
+    "maintainer",
+    "last_verified"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)+$",
+      "description": "Reverse-domain unique identifier, e.g. tv.francetv"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+.*$"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["svod", "replay", "live-tv", "sport", "musique"]
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "icon": {
+      "type": "string",
+      "pattern": "^icon\\.png$"
+    },
+    "install": {
+      "type": "object",
+      "required": ["type", "source_url"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["kodi-repo", "zip-url", "script", "external-app"]
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "addon_id": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "type": { "const": "kodi-repo" } }
+          },
+          "then": {
+            "required": ["addon_id"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "type": { "const": "zip-url" } }
+          },
+          "then": {
+            "required": ["sha256"]
+          }
+        }
+      ]
+    },
+    "legal_notice": {
+      "type": "string",
+      "minLength": 1
+    },
+    "min_os_version": {
+      "type": "string"
+    },
+    "maintainer": {
+      "type": "string"
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date"
+    },
+    "screenshots": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "changelog_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "deep_link": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "additionalProperties": false
+}

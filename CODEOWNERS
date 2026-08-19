@@ -1,0 +1,4 @@
+# Global code owner for all files in the repository.
+# Reviews are mandatory on PRs even for a single maintainer project — this keeps
+# the door open for future contributors without re-architecting the workflow.
+* @jeremiejt38

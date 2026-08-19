@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": "svod",
+      "name": "SVOD",
+      "description": "Services de vidéo à la demande par abonnement"
+    },
+    {
+      "id": "replay",
+      "name": "Replay",
+      "description": "Télévision de rattrapage et chaînes gratuites"
+    },
+    {
+      "id": "live-tv",
+      "name": "TV en direct",
+      "description": "Chaînes TV gratuites en direct"
+    },
+    {
+      "id": "sport",
+      "name": "Sport",
+      "description": "Chaînes et services sportifs"
+    },
+    {
+      "id": "musique",
+      "name": "Musique",
+      "description": "Services de musique en streaming"
+    }
+  ]
+}

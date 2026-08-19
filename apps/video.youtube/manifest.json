@@ -1,0 +1,17 @@
+{
+  "id": "video.youtube",
+  "name": "YouTube",
+  "version": "7.1.0",
+  "category": "live-tv",
+  "description": "YouTube pour Kodi.",
+  "icon": "icon.png",
+  "install": {
+    "type": "kodi-repo",
+    "source_url": "https://mirrors.kodi.tv/addons/omega/",
+    "addon_id": "plugin.video.youtube"
+  },
+  "legal_notice": "Nécessite un compte Google/YouTube pour certains contenus. Aucun contenu redistribué par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-08-19"
+}

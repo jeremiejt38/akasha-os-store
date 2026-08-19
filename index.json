@@ -1,0 +1,91 @@
+{
+  "store_version": 1,
+  "generated_at": "2026-08-19T04:43:53.606831+00:00",
+  "entries": [
+    {
+      "id": "audio.soundcloud",
+      "name": "SoundCloud",
+      "version": "4.0.0",
+      "category": "musique",
+      "description": "Musique et podcasts SoundCloud.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.audio.soundcloud"
+      },
+      "legal_notice": "Nécessite un compte SoundCloud pour certains contenus. Aucun contenu redistribué par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-08-19"
+    },
+    {
+      "id": "tv.francetv",
+      "name": "france.tv",
+      "version": "1.4.2",
+      "category": "replay",
+      "description": "Replay et direct des chaînes France Télévisions.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.francetv"
+      },
+      "legal_notice": "Contenu gratuit avec diffusion géo-restreinte à la France. Aucun contenu redistribué par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-08-19"
+    },
+    {
+      "id": "video.plutotv",
+      "name": "Pluto TV",
+      "version": "1.2.3",
+      "category": "live-tv",
+      "description": "Chaînes TV et films gratuits en direct et en VOD.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.plutotv"
+      },
+      "legal_notice": "Contenu gratuit financé par la publicité. Aucun contenu redistribué par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-08-19"
+    },
+    {
+      "id": "video.primevideo",
+      "name": "Amazon Prime Video",
+      "version": "1.1.7",
+      "category": "svod",
+      "description": "Amazon Prime Video via l'addon tiers Sandmann79.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://github.com/Sandmann79/xbmc/releases/download/Repository/repository.sandmann79.plugins-1.0.4.zip",
+        "addon_id": "plugin.video.amazon-test"
+      },
+      "legal_notice": "Nécessite un abonnement Amazon Prime actif. L'addon est tiers et peut être instable face aux protections Amazon. Aucun contenu redistribué.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-08-19"
+    },
+    {
+      "id": "video.youtube",
+      "name": "YouTube",
+      "version": "7.1.0",
+      "category": "live-tv",
+      "description": "YouTube pour Kodi.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.youtube"
+      },
+      "legal_notice": "Nécessite un compte Google/YouTube pour certains contenus. Aucun contenu redistribué par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-08-19"
+    }
+  ]
+}
