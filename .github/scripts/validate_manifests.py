@@ -3,6 +3,7 @@
 import json
 import os
 import sys
+import time
 from pathlib import Path
 
 import jsonschema
@@ -29,6 +30,24 @@ ADVISORY_ONLY_INSTALL_TYPES = {"external-app", "script"}
 def load_json(path: Path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def _get_with_retries(url, headers, attempts=3, timeout=30):
+    """A single flaky network blip (seen live against mirrors.kodi.tv on a
+    GitHub Actions runner: "Network is unreachable" on one run, fine on the
+    next, same URL, same code) shouldn't fail an otherwise-valid manifest --
+    retry a couple of times with a short backoff before giving up."""
+    last_exc = None
+    for attempt in range(attempts):
+        try:
+            return requests.get(
+                url, timeout=timeout, allow_redirects=True, headers=headers,
+                stream=True)
+        except requests.RequestException as exc:
+            last_exc = exc
+            if attempt < attempts - 1:
+                time.sleep(2 * (attempt + 1))
+    raise last_exc
 
 
 def validate_manifests():
@@ -94,9 +113,7 @@ def validate_manifests():
             "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
         }
         try:
-            resp = requests.get(
-                source_url, timeout=30, allow_redirects=True, headers=headers,
-                stream=True)
+            resp = _get_with_retries(source_url, headers)
             if resp.status_code >= 400:
                 message = f"{app_dir.name}: source_url returned {resp.status_code}"
                 if install_type in ADVISORY_ONLY_INSTALL_TYPES:
