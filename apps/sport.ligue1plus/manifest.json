@@ -1,0 +1,16 @@
+{
+  "id": "sport.ligue1plus",
+  "name": "Ligue 1+",
+  "version": "1.0.0",
+  "category": "sport",
+  "description": "Diffuseur officiel de la Ligue 1 (LFP).",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.ligue1plus.fr"
+  },
+  "legal_notice": "Necessite un abonnement Ligue 1+ actif. Service recent (lance par la LFP en 2024) -- pas d'addon Kodi fonctionnel connu. Fiche informative uniquement. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-08-23"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "video.ocs",
+  "name": "OCS",
+  "version": "1.0.0",
+  "category": "svod",
+  "description": "Cinema et series OCS (Orange).",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.ocs.fr"
+  },
+  "legal_notice": "Necessite un abonnement OCS actif. La marque OCS a connu des evolutions recentes cote Orange -- verifier la disponibilite reelle du service au moment de l'installation. Pas d'addon Kodi fonctionnel connu. Fiche informative uniquement. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-08-23"
+}

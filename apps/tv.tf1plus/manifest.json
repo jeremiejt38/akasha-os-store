@@ -1,0 +1,16 @@
+{
+  "id": "tv.tf1plus",
+  "name": "TF1+",
+  "version": "1.0.0",
+  "category": "replay",
+  "description": "Replay et direct TF1, TMC, TFX, TF1 Series Films (ex-MyTF1).",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.tf1.fr"
+  },
+  "legal_notice": "Contenu gratuit geo-restreint France. Egalement accessible depuis l'addon Catch-up TV & More. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-08-23"
+}

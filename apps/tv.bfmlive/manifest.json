@@ -1,0 +1,16 @@
+{
+  "id": "tv.bfmlive",
+  "name": "BFM Live",
+  "version": "1.0.0",
+  "category": "live-tv",
+  "description": "Direct continu d'information BFM TV.",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.bfmtv.com/en-direct/"
+  },
+  "legal_notice": "Contenu gratuit geo-restreint France. Distinct de la fiche replay tv.bfmtv (memes conditions). Pas d'addon Kodi dedie identifie -- fiche informative uniquement en V1. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-08-23"
+}

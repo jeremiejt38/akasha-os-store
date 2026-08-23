@@ -1,0 +1,16 @@
+{
+  "id": "tv.tf1info",
+  "name": "TF1 Info",
+  "version": "1.0.0",
+  "category": "live-tv",
+  "description": "Direct continu d'information TF1 Info.",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.tf1info.fr/direct/"
+  },
+  "legal_notice": "Contenu gratuit geo-restreint France. Pas d'addon Kodi dedie identifie -- fiche informative uniquement en V1. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-08-23"
+}

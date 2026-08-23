@@ -1,0 +1,17 @@
+{
+  "id": "musique.youtubemusic",
+  "name": "YouTube Music",
+  "version": "1.0.0",
+  "category": "musique",
+  "description": "Streaming musical YouTube Music.",
+  "icon": "icon.png",
+  "install": {
+    "type": "kodi-repo",
+    "source_url": "https://mirrors.kodi.tv/addons/omega/",
+    "addon_id": "plugin.video.youtube"
+  },
+  "legal_notice": "Utilise le meme addon officiel que YouTube (plugin.video.youtube, deja utilise ailleurs dans Akasha OS pour les Comptes & Services) -- la recherche/lecture de musique fonctionne mais l'interface n'est pas dediee musique comme l'app native. Necessite un compte Google pour certains contenus. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-08-23"
+}

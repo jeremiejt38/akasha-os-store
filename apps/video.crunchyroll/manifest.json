@@ -1,0 +1,16 @@
+{
+  "id": "video.crunchyroll",
+  "name": "Crunchyroll",
+  "version": "1.0.0",
+  "category": "svod",
+  "description": "Animes en simulcast et catalogue Crunchyroll.",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.crunchyroll.com"
+  },
+  "legal_notice": "Necessite un abonnement Crunchyroll (un niveau gratuit avec publicite existe). D'anciens addons Kodi communautaires ont existe mais se sont casses a repetition suite aux changements d'API de Crunchyroll -- fiche informative uniquement pour eviter de pointer vers une source non maintenue. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-08-23"
+}
