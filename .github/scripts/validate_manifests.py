@@ -4,7 +4,6 @@ import json
 import os
 import sys
 from pathlib import Path
-from urllib.parse import urlparse
 
 import jsonschema
 import requests
@@ -13,20 +12,18 @@ ROOT = Path(__file__).resolve().parents[2]
 SCHEMA_PATH = ROOT / "schema" / "manifest.schema.json"
 APPS_DIR = ROOT / "apps"
 
-# Domains confirmed reachable by hand (curl with a full browser header set,
-# see the request headers below) but whose anti-bot protection (Akamai/
-# Cloudflare, JS challenges, TLS fingerprinting...) still rejects *any*
-# scripted request, including this validator's -- there is no realistic way
-# to pass a live liveness check here short of running a full headless
-# browser in CI, which is unwarranted just to confirm these institutional
-# sites still exist. Schema/icon validation still applies in full; only the
-# HTTP liveness check is skipped, and only for these specific domains.
-KNOWN_BOT_PROTECTED_DOMAINS = {
-    "www.eurosport.fr",
-    "www.c8.fr",
-    "www.france24.com",
-    "www.ocs.fr",
-}
+# install.type values whose source_url is *only* an informative "learn more"
+# link shown to the user, never actually fetched by the real install flow
+# (that's exactly what distinguishes them from kodi-repo/zip-url, whose
+# source_url the Store module really does need to download from). A CI
+# runner's datacenter IP gets blocked by commercial anti-bot protection
+# (Akamai/Cloudflare, IP reputation) far more aggressively and
+# unpredictably than a home connection -- confirmed live: the exact same
+# manifests that passed locally failed in Actions with different domains
+# 403/406-ing each run, entirely unrelated to whether the site is actually
+# up. Failing CI on that noise would block unrelated PRs indefinitely, so
+# these types only get a printed warning, never a hard failure.
+ADVISORY_ONLY_INSTALL_TYPES = {"external-app", "script"}
 
 
 def load_json(path: Path):
@@ -79,10 +76,14 @@ def validate_manifests():
         # full GET with Accept/Accept-Language set. GET-with-stream (never
         # reads the body) is used throughout instead of HEAD for this
         # reason, at the cost of a slightly heavier request.
+        #
+        # For external-app/script, a failure here is only ever printed as a
+        # warning (see ADVISORY_ONLY_INSTALL_TYPES above) -- these
+        # source_urls are informative-only, and CI datacenter IPs get
+        # blocked by this exact class of anti-bot protection far more
+        # unpredictably than the actual liveness of the linked site.
+        install_type = manifest["install"]["type"]
         source_url = manifest["install"]["source_url"]
-        if urlparse(source_url).netloc in KNOWN_BOT_PROTECTED_DOMAINS:
-            checked += 1
-            continue
         headers = {
             "User-Agent": (
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -97,11 +98,19 @@ def validate_manifests():
                 source_url, timeout=30, allow_redirects=True, headers=headers,
                 stream=True)
             if resp.status_code >= 400:
-                errors.append(f"{app_dir.name}: source_url returned {resp.status_code}")
-                continue
+                message = f"{app_dir.name}: source_url returned {resp.status_code}"
+                if install_type in ADVISORY_ONLY_INSTALL_TYPES:
+                    print(f"warning: {message}", file=sys.stderr)
+                else:
+                    errors.append(message)
+                    continue
         except requests.RequestException as exc:
-            errors.append(f"{app_dir.name}: source_url unreachable ({exc})")
-            continue
+            message = f"{app_dir.name}: source_url unreachable ({exc})"
+            if install_type in ADVISORY_ONLY_INSTALL_TYPES:
+                print(f"warning: {message}", file=sys.stderr)
+            else:
+                errors.append(message)
+                continue
 
         # For zip-url, verify sha256
         if manifest["install"]["type"] == "zip-url":
