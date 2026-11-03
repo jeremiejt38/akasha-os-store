@@ -1,7 +1,371 @@
 {
   "store_version": 1,
-  "generated_at": "2026-08-23T06:43:12.071969+00:00",
+  "generated_at": "2026-11-03T00:22:57.245509+00:00",
   "entries": [
+    {
+      "id": "audio.bbcsounds",
+      "name": "BBC Sounds",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Radios et podcasts de la BBC.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.audio.bbcsounds"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.classicalradio",
+      "name": "Classical Radio",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Musique classique en continu.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.audio.classicalradio"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.difm",
+      "name": "DI.FM",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Radios electroniques thematiques (trance, chill, techno...).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.di.fm"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.funradio",
+      "name": "Fun Radio",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Radio dance et hits.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.funradio.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.jazzradio",
+      "name": "Jazz Radio",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Radio jazz francaise et ses webradios thematiques.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.audio.jazzradio"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.mixcloud",
+      "name": "Mixcloud",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "DJ sets, radios et podcasts long format.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.mixcloud.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.navidrome",
+      "name": "Navidrome",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Serveur de musique auto-heberge (interface web).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.navidrome.org"
+      },
+      "legal_notice": "Necessite un serveur Navidrome sur votre reseau. Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.nrj",
+      "name": "NRJ",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Radio NRJ et webradios thematiques.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.nrj.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://www.nrj.fr/webradios"
+    },
+    {
+      "id": "audio.nts",
+      "name": "NTS Radio",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Radio independante de Londres : selections pointues.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.nts.live"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.plexamp",
+      "name": "Plexamp",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Lecteur musical dedie de Plex.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://plexamp.com"
+      },
+      "legal_notice": "Necessite un Plex Media Server. Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.qobuz",
+      "name": "Qobuz",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Streaming et telechargement Hi-Res Audio (francais).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.qobuz.com"
+      },
+      "legal_notice": "Necessite un abonnement Qobuz. Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://play.qobuz.com"
+    },
+    {
+      "id": "audio.radiobrowser",
+      "name": "Radio Browser",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Annuaire communautaire de radios en ligne.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.audio.radiobrowser"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.radiofrance",
+      "name": "Radio France",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "France Inter, franceinfo, France Musique, FIP, Mouv'.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.audio.radiofrance"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.radionet",
+      "name": "radio.net",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "30 000 radios et podcasts via radio.net.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.audio.radio_de"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.radionova",
+      "name": "Radio Nova",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Radio eclectique : soul, funk, electro, world.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.nova.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.radioparadise",
+      "name": "Radio Paradise",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Radio audiophile eklektique sans pub.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "script.radioparadise"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.radioplayer",
+      "name": "Radioplayer France",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Les radios francaises officielles regroupees.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.audio.radioplayerfrance"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.radiothek",
+      "name": "ORF radiothek",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Radios et podcasts de l'ORF (Autriche).",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.audio.radiothek"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.rmc",
+      "name": "RMC",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Talk radio : info, sport, opinions.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://rmc.bfmtv.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.rtl",
+      "name": "RTL",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "RTL et RTL2 : info, talk et musique.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.rtl.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.skyrock",
+      "name": "Skyrock",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Radio rap et urbaine.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://skyrock.fm"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.somafm",
+      "name": "SomaFM",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "30+ radios independantes sans pub (groove salad, drone zone...).",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.audio.somafm"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
     {
       "id": "audio.soundcloud",
       "name": "SoundCloud",
@@ -18,6 +382,55 @@
       "min_os_version": "12.0",
       "maintainer": "jeremiejt38",
       "last_verified": "2026-08-19"
+    },
+    {
+      "id": "audio.tidal",
+      "name": "Tidal",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Streaming musical haute fidelite.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://tidal.com"
+      },
+      "legal_notice": "Necessite un compte Tidal (HiFi/HiFi Plus). Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://listen.tidal.com"
+    },
+    {
+      "id": "audio.tsfjazz",
+      "name": "TSF Jazz",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "La radio jazz de Paris.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.tsfjazz.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "audio.tunein",
+      "name": "TuneIn Radio",
+      "version": "1.0.0",
+      "category": "musique",
+      "description": "Agregateur de radios mondiales (100 000 stations).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://tunein.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
     },
     {
       "id": "musique.amazonmusic",
@@ -133,6 +546,22 @@
       "last_verified": "2026-08-23"
     },
     {
+      "id": "sport.espn",
+      "name": "ESPN",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "Sport US : ESPN+ et scores en direct.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.espn.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
       "id": "sport.eurosport",
       "name": "Eurosport",
       "version": "1.0.0",
@@ -147,6 +576,22 @@
       "min_os_version": "12.0",
       "maintainer": "jeremiejt38",
       "last_verified": "2026-08-23"
+    },
+    {
+      "id": "sport.f1tv",
+      "name": "F1 TV",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "Formule 1 en direct : F1 TV Pro/Access.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://f1tv.formula1.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
     },
     {
       "id": "sport.lequipe",
@@ -181,20 +626,248 @@
       "last_verified": "2026-08-23"
     },
     {
-      "id": "tv.6play",
-      "name": "6play",
+      "id": "sport.mlb",
+      "name": "MLB.TV",
       "version": "1.0.0",
-      "category": "replay",
-      "description": "Replay et direct M6, W9, 6ter, Gulli.",
+      "category": "sport",
+      "description": "Baseball : tous les matchs MLB en direct.",
       "icon": "icon.png",
       "install": {
         "type": "external-app",
-        "source_url": "https://www.6play.fr"
+        "source_url": "https://www.mlb.com/tv"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "sport.mls",
+      "name": "MLS Season Pass",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "Major League Soccer via Apple TV.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://tv.apple.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "sport.motogp",
+      "name": "MotoGP VideoPass",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "MotoGP : toutes les courses en direct.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.motogp.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "sport.nba",
+      "name": "NBA League Pass",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "Basket : tous les matchs NBA en direct.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.nba.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "sport.nfl",
+      "name": "NFL+",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "Football americain NFL (US).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.nfl.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "sport.skysports",
+      "name": "Sky Sports",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "Sport britannique Sky Sports (abonnement UK).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.skysports.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "sport.tennistv",
+      "name": "Tennis TV",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "ATP/WTA en direct (abonnement).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.tennistv.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "sport.tntsports",
+      "name": "TNT Sports",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "Sport britannique TNT Sports (ex-BT Sport).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.tntsports.co.uk"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "sport.ufc",
+      "name": "UFC Fight Pass",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "MMA : UFC en direct et archives.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.ufc.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://ufcfightpass.com"
+    },
+    {
+      "id": "sport.viaplay",
+      "name": "Viaplay",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "Sport et series (pays nordiques, UK, NL).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://viaplay.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "sport.wrc",
+      "name": "WRC+",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "Rallye mondial WRC en direct.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.wrc.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://www.wrcplus.com"
+    },
+    {
+      "id": "tv.6play",
+      "name": "M6+",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay et streaming M6 (ex-6play) : M6, W9, 6ter, Gulli.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.m6.fr"
       },
       "legal_notice": "Contenu gratuit geo-restreint France. Egalement accessible depuis l'addon Catch-up TV & More. Aucun contenu redistribue par akasha-os-store.",
       "min_os_version": "12.0",
       "maintainer": "jeremiejt38",
-      "last_verified": "2026-08-23"
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.abcnews",
+      "name": "ABC News Live",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Info US ABC News en direct (gratuit).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://abcnews.go.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://abcnews.go.com/Live"
+    },
+    {
+      "id": "tv.aljazeera",
+      "name": "Al Jazeera English",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Info internationale Al Jazeera en anglais.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.aljazeera.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://www.aljazeera.com/live"
+    },
+    {
+      "id": "tv.arirang",
+      "name": "Arirang TV",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Chaine coreenne internationale en anglais.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.arirang.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
     },
     {
       "id": "tv.arte",
@@ -211,6 +884,55 @@
       "min_os_version": "12.0",
       "maintainer": "jeremiejt38",
       "last_verified": "2026-08-23"
+    },
+    {
+      "id": "tv.atresplayer",
+      "name": "Atresplayer",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay Antena 3 et laSexta (Espagne).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.atresplayer.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.auvio",
+      "name": "RTBF Auvio",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay et direct de la RTBF (Belgique).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://auvio.rtbf.be"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.bbciplayer",
+      "name": "BBC iPlayer",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay et direct de la BBC (Royaume-Uni).",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.iplayerwww"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Geolocalisation UK requise. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
     },
     {
       "id": "tv.bfmlive",
@@ -245,6 +967,23 @@
       "last_verified": "2026-08-23"
     },
     {
+      "id": "tv.bloomberg",
+      "name": "Bloomberg TV",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Info economique Bloomberg en direct (gratuit).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.bloomberg.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://www.bloomberg.com/live"
+    },
+    {
       "id": "tv.c8",
       "name": "C8 (replay)",
       "version": "1.0.0",
@@ -259,6 +998,54 @@
       "min_os_version": "12.0",
       "maintainer": "jeremiejt38",
       "last_verified": "2026-08-23"
+    },
+    {
+      "id": "tv.channel4",
+      "name": "Channel 4",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay Channel 4 (Royaume-Uni).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.channel4.com"
+      },
+      "legal_notice": "Geolocalisation UK requise. Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.clubbingtv",
+      "name": "Clubbing TV",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Chaine electro/dance en direct.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.clubbingtv.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.cnbc",
+      "name": "CNBC",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Info economique CNBC (US).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.cnbc.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
     },
     {
       "id": "tv.cnews",
@@ -277,6 +1064,55 @@
       "last_verified": "2026-08-23"
     },
     {
+      "id": "tv.cnn",
+      "name": "CNN International",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Info internationale CNN (compte requis pour le direct).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.cnn.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.dw",
+      "name": "DW",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Info internationale Deutsche Welle (EN/FR/ES/DE).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.dw.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://www.dw.com/en/live-tv/channel-english"
+    },
+    {
+      "id": "tv.equidia",
+      "name": "Equidia",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Courses hippiques en direct (gratuit).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.equidia.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
       "id": "tv.euronews",
       "name": "Euronews",
       "version": "1.0.0",
@@ -291,6 +1127,22 @@
       "min_os_version": "12.0",
       "maintainer": "jeremiejt38",
       "last_verified": "2026-08-23"
+    },
+    {
+      "id": "tv.figarotv",
+      "name": "Figaro TV",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Direct et emissions du Figaro (gratuit).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://video.lefigaro.fr/figaro/"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
     },
     {
       "id": "tv.france24",
@@ -358,6 +1210,71 @@
       "last_verified": "2026-08-19"
     },
     {
+      "id": "tv.gulli",
+      "name": "Gulli",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay jeunesse Gulli.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://replay.gulli.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.i24news",
+      "name": "i24NEWS",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Info internationale (EN/FR/AR/HE).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.i24news.tv"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://www.i24news.tv/fr"
+    },
+    {
+      "id": "tv.itvx",
+      "name": "ITVX",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay et streaming ITV (Royaume-Uni).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.itv.com"
+      },
+      "legal_notice": "Geolocalisation UK requise. Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.kto",
+      "name": "KTO",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Chaine KTO en direct (gratuit).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.ktotv.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
       "id": "tv.lci",
       "name": "LCI (replay)",
       "version": "1.0.0",
@@ -374,6 +1291,203 @@
       "last_verified": "2026-08-23"
     },
     {
+      "id": "tv.lcp",
+      "name": "LCP",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "La Chaine Parlementaire : direct et replay.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://lcp.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.molotov",
+      "name": "Molotov",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "TV francaise en direct, freemium.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.molotov.tv"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://app.molotov.tv"
+    },
+    {
+      "id": "tv.motorvision",
+      "name": "Motorvision TV",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Chaine automobile en direct.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.motorvision.tv/"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.museumtv",
+      "name": "Museum TV",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Chaine dediee a l'art et aux expositions.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.museumtv.art"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.nhkworld",
+      "name": "NHK World-Japan",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Chaine internationale japonaise en anglais (gratuit).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www3.nhk.or.jp/nhkworld/"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://www3.nhk.or.jp/nhkworld/en/live/"
+    },
+    {
+      "id": "tv.npostart",
+      "name": "NPO Start",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay des chaines publiques NPO (Pays-Bas).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.npostart.nl"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.nrjplay",
+      "name": "NRJ Play",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay NRJ12 et Cherie 25.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.nrj-play.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.nrk",
+      "name": "NRK TV",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay et direct de la NRK (Norvege).",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.nrk"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.okoo",
+      "name": "Okoo",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Jeunesse France Televisions : dessins animes en replay.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.france.tv/enfants/"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.orfon",
+      "name": "ORF ON",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay et direct de l'ORF (Autriche).",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.orftvthek"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.publicsenat",
+      "name": "Public Sénat",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Chaine du Senat : direct et replay.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.publicsenat.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.raiplay",
+      "name": "RaiPlay",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay et direct de la Rai (Italie).",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.raitv"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
       "id": "tv.rmcstory",
       "name": "RMC Story / RMC Decouverte",
       "version": "1.0.0",
@@ -388,6 +1502,122 @@
       "min_os_version": "12.0",
       "maintainer": "jeremiejt38",
       "last_verified": "2026-08-23"
+    },
+    {
+      "id": "tv.rtlplus",
+      "name": "RTL+",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay et SVOD RTL (Allemagne/Luxembourg).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.rtlplus.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.rtsplay",
+      "name": "RTS Play",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay de la RTS (Suisse romande).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.rts.ch/play"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.rtve",
+      "name": "RTVE Play",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay et direct de la RTVE (Espagne).",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.rtve"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.skynews",
+      "name": "Sky News",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Info britannique Sky News en direct.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://news.sky.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://news.sky.com/watch-live"
+    },
+    {
+      "id": "tv.sudradio",
+      "name": "Sud Radio TV",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Direct video Sud Radio (gratuit).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.sudradio.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.svtplay",
+      "name": "SVT Play",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay de la SVT (Suede).",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.svtplay"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "tv.tf1direct",
+      "name": "TF1+ Direct",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Chaines TF1 en direct via TF1+.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.tf1.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://www.tf1.fr/direct"
     },
     {
       "id": "tv.tf1info",
@@ -422,6 +1652,39 @@
       "last_verified": "2026-08-23"
     },
     {
+      "id": "tv.trtworld",
+      "name": "TRT World",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Info internationale turque en anglais.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.trtworld.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03",
+      "deep_link": "https://www.trtworld.com/live"
+    },
+    {
+      "id": "video.acorntv",
+      "name": "Acorn TV",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "Series britanniques, policiers et drames.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://acorn.tv"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
       "id": "video.adn",
       "name": "ADN (Anime Digital Network)",
       "version": "1.0.0",
@@ -438,6 +1701,22 @@
       "last_verified": "2026-08-23"
     },
     {
+      "id": "video.amcplus",
+      "name": "AMC+",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "Series AMC : The Walking Dead, Interview with the Vampire...",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.amcplus.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
       "id": "video.appletvplus",
       "name": "Apple TV+",
       "version": "1.0.0",
@@ -452,6 +1731,55 @@
       "min_os_version": "12.0",
       "maintainer": "jeremiejt38",
       "last_verified": "2026-08-23"
+    },
+    {
+      "id": "video.ardmediathek",
+      "name": "ARD Mediathek",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay des chaines publiques allemandes ARD.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.ardmediathek_de"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.britbox",
+      "name": "BritBox",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "Le meilleur de la TV britannique (BBC/ITV).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.britbox.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.canalplus",
+      "name": "CANAL+",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "Films, series et sport Canal+ (myCANAL).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.canalplus.com"
+      },
+      "legal_notice": "Necessite un abonnement Canal+ actif. Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
     },
     {
       "id": "video.catchuptvandmore",
@@ -517,6 +1845,86 @@
       "min_os_version": "12.0",
       "maintainer": "jeremiejt38",
       "last_verified": "2026-08-23"
+    },
+    {
+      "id": "video.filmotv",
+      "name": "FilmoTV",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "SVOD cinema : films independants et grands classiques.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.filmotv.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.hidive",
+      "name": "HIDIVE",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "Streaming anime (catalogue Sentai).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.hidive.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.hulu",
+      "name": "Hulu",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "SVOD americain (series et films), compte US requis.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.hulu.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.lacinetek",
+      "name": "LaCinetek",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "Cinema de patrimoine : une selection de films par de grands realisateurs.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.lacinetek.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.mangasio",
+      "name": "Mangas.io",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "Lecture de mangas en ligne par abonnement.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.mangas.io"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
     },
     {
       "id": "video.max",
@@ -599,6 +2007,22 @@
       "last_verified": "2026-08-23"
     },
     {
+      "id": "video.peacock",
+      "name": "Peacock",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "SVOD NBCUniversal (compte US requis).",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.peacocktv.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
       "id": "video.plutotv",
       "name": "Pluto TV",
       "version": "1.2.3",
@@ -649,6 +2073,120 @@
       "last_verified": "2026-08-23"
     },
     {
+      "id": "video.redbulltv",
+      "name": "Red Bull TV",
+      "version": "1.0.0",
+      "category": "sport",
+      "description": "Sports extremes et documentaires Red Bull (gratuit).",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.redbull.tv"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.shudder",
+      "name": "Shudder",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "SVOD horreur et thriller.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.shudder.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.tenk",
+      "name": "Tënk",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "Plateforme de documentaires d'auteur.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.tenk.fr"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.tubi",
+      "name": "Tubi",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "Films et series gratuits avec publicite.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://tubitv.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.tv5mondeplus",
+      "name": "TV5MONDE+",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "Cinema et series francophones gratuits.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.tv5mondeplus.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.twitch",
+      "name": "Twitch",
+      "version": "1.0.0",
+      "category": "live-tv",
+      "description": "Streams et esport en direct.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.twitch"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
+      "id": "video.universcine",
+      "name": "UniversCiné",
+      "version": "1.0.0",
+      "category": "svod",
+      "description": "VOD cinema d'auteur et independant.",
+      "icon": "icon.png",
+      "install": {
+        "type": "external-app",
+        "source_url": "https://www.universcine.com"
+      },
+      "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
+    },
+    {
       "id": "video.youtube",
       "name": "YouTube",
       "version": "7.1.0",
@@ -664,6 +2202,23 @@
       "min_os_version": "12.0",
       "maintainer": "jeremiejt38",
       "last_verified": "2026-08-19"
+    },
+    {
+      "id": "video.zdfmediathek",
+      "name": "ZDF Mediathek",
+      "version": "1.0.0",
+      "category": "replay",
+      "description": "Replay des chaines publiques allemandes ZDF.",
+      "icon": "icon.png",
+      "install": {
+        "type": "kodi-repo",
+        "source_url": "https://mirrors.kodi.tv/addons/omega/",
+        "addon_id": "plugin.video.zdf_de_lite"
+      },
+      "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+      "min_os_version": "12.0",
+      "maintainer": "jeremiejt38",
+      "last_verified": "2026-11-03"
     }
   ]
 }
