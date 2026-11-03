@@ -1,0 +1,16 @@
+{
+  "id": "video.tv5mondeplus",
+  "name": "TV5MONDE+",
+  "version": "1.0.0",
+  "category": "svod",
+  "description": "Cinema et series francophones gratuits.",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.tv5mondeplus.com"
+  },
+  "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tv.tf1direct",
+  "name": "TF1+ Direct",
+  "version": "1.0.0",
+  "category": "live-tv",
+  "description": "Chaines TF1 en direct via TF1+.",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.tf1.fr"
+  },
+  "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-11-03",
+  "deep_link": "https://www.tf1.fr/direct"
+}

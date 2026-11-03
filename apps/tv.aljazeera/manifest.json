@@ -1,0 +1,17 @@
+{
+  "id": "tv.aljazeera",
+  "name": "Al Jazeera English",
+  "version": "1.0.0",
+  "category": "live-tv",
+  "description": "Info internationale Al Jazeera en anglais.",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.aljazeera.com"
+  },
+  "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-11-03",
+  "deep_link": "https://www.aljazeera.com/live"
+}

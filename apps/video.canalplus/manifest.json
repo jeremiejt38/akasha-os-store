@@ -1,0 +1,16 @@
+{
+  "id": "video.canalplus",
+  "name": "CANAL+",
+  "version": "1.0.0",
+  "category": "svod",
+  "description": "Films, series et sport Canal+ (myCANAL).",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.canalplus.com"
+  },
+  "legal_notice": "Necessite un abonnement Canal+ actif. Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-11-03"
+}

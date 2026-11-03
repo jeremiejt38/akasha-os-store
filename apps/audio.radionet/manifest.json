@@ -1,0 +1,17 @@
+{
+  "id": "audio.radionet",
+  "name": "radio.net",
+  "version": "1.0.0",
+  "category": "musique",
+  "description": "30 000 radios et podcasts via radio.net.",
+  "icon": "icon.png",
+  "install": {
+    "type": "kodi-repo",
+    "source_url": "https://mirrors.kodi.tv/addons/omega/",
+    "addon_id": "plugin.audio.radio_de"
+  },
+  "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-11-03"
+}
