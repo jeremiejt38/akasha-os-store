@@ -1,0 +1,16 @@
+{
+  "id": "tv.publicsenat",
+  "name": "Public Sénat",
+  "version": "1.0.0",
+  "category": "replay",
+  "description": "Chaine du Senat : direct et replay.",
+  "icon": "icon.png",
+  "install": {
+    "type": "external-app",
+    "source_url": "https://www.publicsenat.fr"
+  },
+  "legal_notice": "Fiche informative uniquement : installation enregistree comme lanceur web (Chromium), pas d'installation Kodi automatique en V1. Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-11-03"
+}

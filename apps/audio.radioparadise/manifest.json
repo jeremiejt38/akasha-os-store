@@ -1,0 +1,17 @@
+{
+  "id": "audio.radioparadise",
+  "name": "Radio Paradise",
+  "version": "1.0.0",
+  "category": "musique",
+  "description": "Radio audiophile eklektique sans pub.",
+  "icon": "icon.png",
+  "install": {
+    "type": "kodi-repo",
+    "source_url": "https://mirrors.kodi.tv/addons/omega/",
+    "addon_id": "script.radioparadise"
+  },
+  "legal_notice": "Addon officiel du depot Kodi (Omega). Aucun contenu redistribue par akasha-os-store.",
+  "min_os_version": "12.0",
+  "maintainer": "jeremiejt38",
+  "last_verified": "2026-11-03"
+}
